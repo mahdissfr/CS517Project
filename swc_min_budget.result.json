@@ -1,0 +1,126 @@
+{
+  "satisfiable": true,
+  "budget": 1,
+  "budget_used": 1,
+  "selected_schedule_ids": [
+    "sched_0013"
+  ],
+  "message": "SAT: found a set of schedules covering all requirements within the budget.",
+  "minimum_budget": 1,
+  "selected_schedules": [
+    {
+      "schedule_id": "sched_0013",
+      "binary_sequence": "1100",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.9",
+        "R_label=medium_depth=5in_t=4_theta>=24.7",
+        "R_label=medium_depth=9in_t=4_theta>=24.5",
+        "R_label=wet_depth=1in_t=4_theta>=24.95",
+        "R_label=wet_depth=5in_t=4_theta>=24.8",
+        "R_label=wet_depth=9in_t=4_theta>=24.6"
+      ]
+    }
+  ],
+  "covered_requirements": [
+    "R_label=dry_depth=1in_t=4_theta>=24.8",
+    "R_label=dry_depth=5in_t=4_theta>=24.6",
+    "R_label=dry_depth=9in_t=4_theta>=24.4",
+    "R_label=medium_depth=1in_t=4_theta>=24.9",
+    "R_label=medium_depth=5in_t=4_theta>=24.7",
+    "R_label=medium_depth=9in_t=4_theta>=24.5",
+    "R_label=wet_depth=1in_t=4_theta>=24.95",
+    "R_label=wet_depth=5in_t=4_theta>=24.8",
+    "R_label=wet_depth=9in_t=4_theta>=24.6"
+  ],
+  "num_requirements": 9,
+  "num_covered_requirements": 9,
+  "all_requirements_covered": true,
+  "requirements": [
+    {
+      "req_id": "R_label=dry_depth=1in_t=4_theta>=24.8",
+      "initial_group": "dry",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 24.8,
+      "description": "For initial label 'dry', depth 1in must reach theta >= 24.8% by time step 4."
+    },
+    {
+      "req_id": "R_label=dry_depth=5in_t=4_theta>=24.6",
+      "initial_group": "dry",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 24.6,
+      "description": "For initial label 'dry', depth 5in must reach theta >= 24.6% by time step 4."
+    },
+    {
+      "req_id": "R_label=dry_depth=9in_t=4_theta>=24.4",
+      "initial_group": "dry",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 24.4,
+      "description": "For initial label 'dry', depth 9in must reach theta >= 24.4% by time step 4."
+    },
+    {
+      "req_id": "R_label=medium_depth=1in_t=4_theta>=24.9",
+      "initial_group": "medium",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 24.9,
+      "description": "For initial label 'medium', depth 1in must reach theta >= 24.9% by time step 4."
+    },
+    {
+      "req_id": "R_label=medium_depth=5in_t=4_theta>=24.7",
+      "initial_group": "medium",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 24.7,
+      "description": "For initial label 'medium', depth 5in must reach theta >= 24.7% by time step 4."
+    },
+    {
+      "req_id": "R_label=medium_depth=9in_t=4_theta>=24.5",
+      "initial_group": "medium",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 24.5,
+      "description": "For initial label 'medium', depth 9in must reach theta >= 24.5% by time step 4."
+    },
+    {
+      "req_id": "R_label=wet_depth=1in_t=4_theta>=24.95",
+      "initial_group": "wet",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 24.95,
+      "description": "For initial label 'wet', depth 1in must reach theta >= 24.95% by time step 4."
+    },
+    {
+      "req_id": "R_label=wet_depth=5in_t=4_theta>=24.8",
+      "initial_group": "wet",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 24.8,
+      "description": "For initial label 'wet', depth 5in must reach theta >= 24.8% by time step 4."
+    },
+    {
+      "req_id": "R_label=wet_depth=9in_t=4_theta>=24.6",
+      "initial_group": "wet",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 24.6,
+      "description": "For initial label 'wet', depth 9in must reach theta >= 24.6% by time step 4."
+    }
+  ],
+  "settings": {
+    "summary_csv": "controller_level_summary_20260518_211049.csv",
+    "thresholds": "same:20",
+    "label_thresholds": "dry:1in=24.8,5in=24.6,9in=24.4;medium:1in=24.9,5in=24.7,9in=24.5;wet:1in=24.95,5in=24.8,9in=24.6",
+    "deadlines": "4",
+    "granularity": "label",
+    "coverage_mode": "all",
+    "deadline_mode": "at_or_before",
+    "include_t0": false,
+    "solver": "z3"
+  }
+}
