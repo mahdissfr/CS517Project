@@ -1,0 +1,966 @@
+{
+  "budget": null,
+  "requirements": [
+    {
+      "req_id": "R_label=dry_depth=1in_t=6_theta>=22",
+      "initial_group": "dry",
+      "depth": "1in",
+      "deadline": 6,
+      "threshold": 22.0,
+      "description": "For initial label 'dry', depth 1in must reach theta >= 22% by time step 6."
+    },
+    {
+      "req_id": "R_label=dry_depth=5in_t=6_theta>=20",
+      "initial_group": "dry",
+      "depth": "5in",
+      "deadline": 6,
+      "threshold": 20.0,
+      "description": "For initial label 'dry', depth 5in must reach theta >= 20% by time step 6."
+    },
+    {
+      "req_id": "R_label=dry_depth=9in_t=6_theta>=18",
+      "initial_group": "dry",
+      "depth": "9in",
+      "deadline": 6,
+      "threshold": 18.0,
+      "description": "For initial label 'dry', depth 9in must reach theta >= 18% by time step 6."
+    },
+    {
+      "req_id": "R_label=medium_depth=1in_t=6_theta>=24",
+      "initial_group": "medium",
+      "depth": "1in",
+      "deadline": 6,
+      "threshold": 24.0,
+      "description": "For initial label 'medium', depth 1in must reach theta >= 24% by time step 6."
+    },
+    {
+      "req_id": "R_label=medium_depth=5in_t=6_theta>=22",
+      "initial_group": "medium",
+      "depth": "5in",
+      "deadline": 6,
+      "threshold": 22.0,
+      "description": "For initial label 'medium', depth 5in must reach theta >= 22% by time step 6."
+    },
+    {
+      "req_id": "R_label=medium_depth=9in_t=6_theta>=20",
+      "initial_group": "medium",
+      "depth": "9in",
+      "deadline": 6,
+      "threshold": 20.0,
+      "description": "For initial label 'medium', depth 9in must reach theta >= 20% by time step 6."
+    },
+    {
+      "req_id": "R_label=wet_depth=1in_t=6_theta>=26",
+      "initial_group": "wet",
+      "depth": "1in",
+      "deadline": 6,
+      "threshold": 26.0,
+      "description": "For initial label 'wet', depth 1in must reach theta >= 26% by time step 6."
+    },
+    {
+      "req_id": "R_label=wet_depth=5in_t=6_theta>=24",
+      "initial_group": "wet",
+      "depth": "5in",
+      "deadline": 6,
+      "threshold": 24.0,
+      "description": "For initial label 'wet', depth 5in must reach theta >= 24% by time step 6."
+    },
+    {
+      "req_id": "R_label=wet_depth=9in_t=6_theta>=22",
+      "initial_group": "wet",
+      "depth": "9in",
+      "deadline": 6,
+      "threshold": 22.0,
+      "description": "For initial label 'wet', depth 9in must reach theta >= 22% by time step 6."
+    }
+  ],
+  "actions": [
+    {
+      "id": "sched_0001",
+      "binary_sequence": "000000",
+      "covers": []
+    },
+    {
+      "id": "sched_0002",
+      "binary_sequence": "000001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0003",
+      "binary_sequence": "000010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0004",
+      "binary_sequence": "000011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0005",
+      "binary_sequence": "000100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0006",
+      "binary_sequence": "000101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0007",
+      "binary_sequence": "000110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0008",
+      "binary_sequence": "000111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0009",
+      "binary_sequence": "001000",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0010",
+      "binary_sequence": "001001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0011",
+      "binary_sequence": "001010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0012",
+      "binary_sequence": "001011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0013",
+      "binary_sequence": "001100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0014",
+      "binary_sequence": "001101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0015",
+      "binary_sequence": "001110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0016",
+      "binary_sequence": "001111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0017",
+      "binary_sequence": "010000",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0018",
+      "binary_sequence": "010001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0019",
+      "binary_sequence": "010010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0020",
+      "binary_sequence": "010011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0021",
+      "binary_sequence": "010100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0022",
+      "binary_sequence": "010101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0023",
+      "binary_sequence": "010110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0024",
+      "binary_sequence": "010111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0025",
+      "binary_sequence": "011000",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0026",
+      "binary_sequence": "011001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0027",
+      "binary_sequence": "011010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0028",
+      "binary_sequence": "011011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0029",
+      "binary_sequence": "011100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0030",
+      "binary_sequence": "011101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0031",
+      "binary_sequence": "011110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0032",
+      "binary_sequence": "011111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0033",
+      "binary_sequence": "100000",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0034",
+      "binary_sequence": "100001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0035",
+      "binary_sequence": "100010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0036",
+      "binary_sequence": "100011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0037",
+      "binary_sequence": "100100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0038",
+      "binary_sequence": "100101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0039",
+      "binary_sequence": "100110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0040",
+      "binary_sequence": "100111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0041",
+      "binary_sequence": "101000",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0042",
+      "binary_sequence": "101001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0043",
+      "binary_sequence": "101010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0044",
+      "binary_sequence": "101011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0045",
+      "binary_sequence": "101100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0046",
+      "binary_sequence": "101101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0047",
+      "binary_sequence": "101110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0048",
+      "binary_sequence": "101111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0049",
+      "binary_sequence": "110000",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0050",
+      "binary_sequence": "110001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0051",
+      "binary_sequence": "110010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0052",
+      "binary_sequence": "110011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0053",
+      "binary_sequence": "110100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0054",
+      "binary_sequence": "110101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0055",
+      "binary_sequence": "110110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0056",
+      "binary_sequence": "110111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0057",
+      "binary_sequence": "111000",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0058",
+      "binary_sequence": "111001",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0059",
+      "binary_sequence": "111010",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0060",
+      "binary_sequence": "111011",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0061",
+      "binary_sequence": "111100",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0062",
+      "binary_sequence": "111101",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0063",
+      "binary_sequence": "111110",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    },
+    {
+      "id": "sched_0064",
+      "binary_sequence": "111111",
+      "covers": [
+        "R_label=dry_depth=1in_t=6_theta>=22",
+        "R_label=dry_depth=5in_t=6_theta>=20",
+        "R_label=dry_depth=9in_t=6_theta>=18",
+        "R_label=medium_depth=1in_t=6_theta>=24",
+        "R_label=medium_depth=5in_t=6_theta>=22",
+        "R_label=medium_depth=9in_t=6_theta>=20",
+        "R_label=wet_depth=5in_t=6_theta>=24",
+        "R_label=wet_depth=9in_t=6_theta>=22"
+      ]
+    }
+  ]
+}

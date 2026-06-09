@@ -1,0 +1,554 @@
+{
+  "satisfiable": true,
+  "budget": 2,
+  "budget_used": 2,
+  "selected_schedule_ids": [
+    "sched_0006",
+    "sched_0013"
+  ],
+  "message": "SAT: found a set of schedules covering all requirements within the budget.",
+  "num_solver_calls": 1,
+  "selected_schedules": [
+    {
+      "schedule_id": "sched_0006",
+      "binary_sequence": "0101",
+      "covers": [
+        "R_case=dry_001_depth=1in_t=4_theta>=22",
+        "R_case=dry_001_depth=5in_t=4_theta>=20",
+        "R_case=dry_001_depth=9in_t=4_theta>=18",
+        "R_case=dry_002_depth=1in_t=4_theta>=22",
+        "R_case=dry_002_depth=5in_t=4_theta>=20",
+        "R_case=dry_002_depth=9in_t=4_theta>=18",
+        "R_case=dry_003_depth=1in_t=4_theta>=22",
+        "R_case=dry_003_depth=5in_t=4_theta>=20",
+        "R_case=dry_003_depth=9in_t=4_theta>=18",
+        "R_case=dry_004_depth=1in_t=4_theta>=22",
+        "R_case=dry_004_depth=5in_t=4_theta>=20",
+        "R_case=dry_004_depth=9in_t=4_theta>=18",
+        "R_case=dry_005_depth=1in_t=4_theta>=22",
+        "R_case=dry_005_depth=5in_t=4_theta>=20",
+        "R_case=dry_005_depth=9in_t=4_theta>=18",
+        "R_case=medium_001_depth=1in_t=4_theta>=22",
+        "R_case=medium_001_depth=5in_t=4_theta>=20",
+        "R_case=medium_001_depth=9in_t=4_theta>=18",
+        "R_case=medium_002_depth=1in_t=4_theta>=22",
+        "R_case=medium_002_depth=5in_t=4_theta>=20",
+        "R_case=medium_002_depth=9in_t=4_theta>=18",
+        "R_case=medium_003_depth=1in_t=4_theta>=22",
+        "R_case=medium_003_depth=5in_t=4_theta>=20",
+        "R_case=medium_003_depth=9in_t=4_theta>=18",
+        "R_case=medium_004_depth=1in_t=4_theta>=22",
+        "R_case=medium_004_depth=5in_t=4_theta>=20",
+        "R_case=medium_004_depth=9in_t=4_theta>=18",
+        "R_case=medium_005_depth=1in_t=4_theta>=22",
+        "R_case=medium_005_depth=5in_t=4_theta>=20",
+        "R_case=medium_005_depth=9in_t=4_theta>=18",
+        "R_case=wet_001_depth=1in_t=4_theta>=22",
+        "R_case=wet_001_depth=5in_t=4_theta>=20",
+        "R_case=wet_001_depth=9in_t=4_theta>=18",
+        "R_case=wet_002_depth=1in_t=4_theta>=22",
+        "R_case=wet_002_depth=5in_t=4_theta>=20",
+        "R_case=wet_002_depth=9in_t=4_theta>=18",
+        "R_case=wet_003_depth=1in_t=4_theta>=22",
+        "R_case=wet_003_depth=5in_t=4_theta>=20",
+        "R_case=wet_003_depth=9in_t=4_theta>=18",
+        "R_case=wet_004_depth=1in_t=4_theta>=22",
+        "R_case=wet_004_depth=5in_t=4_theta>=20",
+        "R_case=wet_004_depth=9in_t=4_theta>=18",
+        "R_case=wet_005_depth=1in_t=4_theta>=22",
+        "R_case=wet_005_depth=5in_t=4_theta>=20",
+        "R_case=wet_005_depth=9in_t=4_theta>=18"
+      ]
+    },
+    {
+      "schedule_id": "sched_0013",
+      "binary_sequence": "1100",
+      "covers": [
+        "R_case=dry_001_depth=1in_t=4_theta>=22",
+        "R_case=dry_001_depth=5in_t=4_theta>=20",
+        "R_case=dry_001_depth=9in_t=4_theta>=18",
+        "R_case=dry_002_depth=1in_t=4_theta>=22",
+        "R_case=dry_002_depth=5in_t=4_theta>=20",
+        "R_case=dry_002_depth=9in_t=4_theta>=18",
+        "R_case=dry_003_depth=1in_t=4_theta>=22",
+        "R_case=dry_003_depth=5in_t=4_theta>=20",
+        "R_case=dry_003_depth=9in_t=4_theta>=18",
+        "R_case=dry_004_depth=1in_t=4_theta>=22",
+        "R_case=dry_004_depth=5in_t=4_theta>=20",
+        "R_case=dry_004_depth=9in_t=4_theta>=18",
+        "R_case=dry_005_depth=1in_t=4_theta>=22",
+        "R_case=dry_005_depth=5in_t=4_theta>=20",
+        "R_case=dry_005_depth=9in_t=4_theta>=18",
+        "R_case=medium_001_depth=1in_t=4_theta>=22",
+        "R_case=medium_001_depth=5in_t=4_theta>=20",
+        "R_case=medium_001_depth=9in_t=4_theta>=18",
+        "R_case=medium_002_depth=1in_t=4_theta>=22",
+        "R_case=medium_002_depth=5in_t=4_theta>=20",
+        "R_case=medium_002_depth=9in_t=4_theta>=18",
+        "R_case=medium_003_depth=1in_t=4_theta>=22",
+        "R_case=medium_003_depth=5in_t=4_theta>=20",
+        "R_case=medium_003_depth=9in_t=4_theta>=18",
+        "R_case=medium_004_depth=1in_t=4_theta>=22",
+        "R_case=medium_004_depth=5in_t=4_theta>=20",
+        "R_case=medium_004_depth=9in_t=4_theta>=18",
+        "R_case=medium_005_depth=1in_t=4_theta>=22",
+        "R_case=medium_005_depth=5in_t=4_theta>=20",
+        "R_case=medium_005_depth=9in_t=4_theta>=18",
+        "R_case=wet_001_depth=1in_t=4_theta>=22",
+        "R_case=wet_001_depth=5in_t=4_theta>=20",
+        "R_case=wet_001_depth=9in_t=4_theta>=18",
+        "R_case=wet_002_depth=1in_t=4_theta>=22",
+        "R_case=wet_002_depth=5in_t=4_theta>=20",
+        "R_case=wet_002_depth=9in_t=4_theta>=18",
+        "R_case=wet_003_depth=1in_t=4_theta>=22",
+        "R_case=wet_003_depth=5in_t=4_theta>=20",
+        "R_case=wet_003_depth=9in_t=4_theta>=18",
+        "R_case=wet_004_depth=1in_t=4_theta>=22",
+        "R_case=wet_004_depth=5in_t=4_theta>=20",
+        "R_case=wet_004_depth=9in_t=4_theta>=18",
+        "R_case=wet_005_depth=1in_t=4_theta>=22",
+        "R_case=wet_005_depth=5in_t=4_theta>=20",
+        "R_case=wet_005_depth=9in_t=4_theta>=18"
+      ]
+    }
+  ],
+  "covered_requirements": [
+    "R_case=dry_001_depth=1in_t=4_theta>=22",
+    "R_case=dry_001_depth=5in_t=4_theta>=20",
+    "R_case=dry_001_depth=9in_t=4_theta>=18",
+    "R_case=dry_002_depth=1in_t=4_theta>=22",
+    "R_case=dry_002_depth=5in_t=4_theta>=20",
+    "R_case=dry_002_depth=9in_t=4_theta>=18",
+    "R_case=dry_003_depth=1in_t=4_theta>=22",
+    "R_case=dry_003_depth=5in_t=4_theta>=20",
+    "R_case=dry_003_depth=9in_t=4_theta>=18",
+    "R_case=dry_004_depth=1in_t=4_theta>=22",
+    "R_case=dry_004_depth=5in_t=4_theta>=20",
+    "R_case=dry_004_depth=9in_t=4_theta>=18",
+    "R_case=dry_005_depth=1in_t=4_theta>=22",
+    "R_case=dry_005_depth=5in_t=4_theta>=20",
+    "R_case=dry_005_depth=9in_t=4_theta>=18",
+    "R_case=medium_001_depth=1in_t=4_theta>=22",
+    "R_case=medium_001_depth=5in_t=4_theta>=20",
+    "R_case=medium_001_depth=9in_t=4_theta>=18",
+    "R_case=medium_002_depth=1in_t=4_theta>=22",
+    "R_case=medium_002_depth=5in_t=4_theta>=20",
+    "R_case=medium_002_depth=9in_t=4_theta>=18",
+    "R_case=medium_003_depth=1in_t=4_theta>=22",
+    "R_case=medium_003_depth=5in_t=4_theta>=20",
+    "R_case=medium_003_depth=9in_t=4_theta>=18",
+    "R_case=medium_004_depth=1in_t=4_theta>=22",
+    "R_case=medium_004_depth=5in_t=4_theta>=20",
+    "R_case=medium_004_depth=9in_t=4_theta>=18",
+    "R_case=medium_005_depth=1in_t=4_theta>=22",
+    "R_case=medium_005_depth=5in_t=4_theta>=20",
+    "R_case=medium_005_depth=9in_t=4_theta>=18",
+    "R_case=wet_001_depth=1in_t=4_theta>=22",
+    "R_case=wet_001_depth=5in_t=4_theta>=20",
+    "R_case=wet_001_depth=9in_t=4_theta>=18",
+    "R_case=wet_002_depth=1in_t=4_theta>=22",
+    "R_case=wet_002_depth=5in_t=4_theta>=20",
+    "R_case=wet_002_depth=9in_t=4_theta>=18",
+    "R_case=wet_003_depth=1in_t=4_theta>=22",
+    "R_case=wet_003_depth=5in_t=4_theta>=20",
+    "R_case=wet_003_depth=9in_t=4_theta>=18",
+    "R_case=wet_004_depth=1in_t=4_theta>=22",
+    "R_case=wet_004_depth=5in_t=4_theta>=20",
+    "R_case=wet_004_depth=9in_t=4_theta>=18",
+    "R_case=wet_005_depth=1in_t=4_theta>=22",
+    "R_case=wet_005_depth=5in_t=4_theta>=20",
+    "R_case=wet_005_depth=9in_t=4_theta>=18"
+  ],
+  "num_requirements": 45,
+  "num_covered_requirements": 45,
+  "all_requirements_covered": true,
+  "requirements": [
+    {
+      "req_id": "R_case=dry_001_depth=1in_t=4_theta>=22",
+      "initial_group": "dry_001",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'dry_001', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_001_depth=5in_t=4_theta>=20",
+      "initial_group": "dry_001",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'dry_001', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_001_depth=9in_t=4_theta>=18",
+      "initial_group": "dry_001",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'dry_001', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_002_depth=1in_t=4_theta>=22",
+      "initial_group": "dry_002",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'dry_002', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_002_depth=5in_t=4_theta>=20",
+      "initial_group": "dry_002",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'dry_002', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_002_depth=9in_t=4_theta>=18",
+      "initial_group": "dry_002",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'dry_002', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_003_depth=1in_t=4_theta>=22",
+      "initial_group": "dry_003",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'dry_003', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_003_depth=5in_t=4_theta>=20",
+      "initial_group": "dry_003",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'dry_003', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_003_depth=9in_t=4_theta>=18",
+      "initial_group": "dry_003",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'dry_003', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_004_depth=1in_t=4_theta>=22",
+      "initial_group": "dry_004",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'dry_004', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_004_depth=5in_t=4_theta>=20",
+      "initial_group": "dry_004",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'dry_004', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_004_depth=9in_t=4_theta>=18",
+      "initial_group": "dry_004",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'dry_004', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_005_depth=1in_t=4_theta>=22",
+      "initial_group": "dry_005",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'dry_005', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_005_depth=5in_t=4_theta>=20",
+      "initial_group": "dry_005",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'dry_005', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=dry_005_depth=9in_t=4_theta>=18",
+      "initial_group": "dry_005",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'dry_005', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_001_depth=1in_t=4_theta>=22",
+      "initial_group": "medium_001",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'medium_001', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_001_depth=5in_t=4_theta>=20",
+      "initial_group": "medium_001",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'medium_001', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_001_depth=9in_t=4_theta>=18",
+      "initial_group": "medium_001",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'medium_001', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_002_depth=1in_t=4_theta>=22",
+      "initial_group": "medium_002",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'medium_002', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_002_depth=5in_t=4_theta>=20",
+      "initial_group": "medium_002",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'medium_002', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_002_depth=9in_t=4_theta>=18",
+      "initial_group": "medium_002",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'medium_002', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_003_depth=1in_t=4_theta>=22",
+      "initial_group": "medium_003",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'medium_003', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_003_depth=5in_t=4_theta>=20",
+      "initial_group": "medium_003",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'medium_003', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_003_depth=9in_t=4_theta>=18",
+      "initial_group": "medium_003",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'medium_003', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_004_depth=1in_t=4_theta>=22",
+      "initial_group": "medium_004",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'medium_004', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_004_depth=5in_t=4_theta>=20",
+      "initial_group": "medium_004",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'medium_004', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_004_depth=9in_t=4_theta>=18",
+      "initial_group": "medium_004",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'medium_004', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_005_depth=1in_t=4_theta>=22",
+      "initial_group": "medium_005",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'medium_005', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_005_depth=5in_t=4_theta>=20",
+      "initial_group": "medium_005",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'medium_005', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=medium_005_depth=9in_t=4_theta>=18",
+      "initial_group": "medium_005",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'medium_005', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_001_depth=1in_t=4_theta>=22",
+      "initial_group": "wet_001",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'wet_001', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_001_depth=5in_t=4_theta>=20",
+      "initial_group": "wet_001",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'wet_001', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_001_depth=9in_t=4_theta>=18",
+      "initial_group": "wet_001",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'wet_001', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_002_depth=1in_t=4_theta>=22",
+      "initial_group": "wet_002",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'wet_002', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_002_depth=5in_t=4_theta>=20",
+      "initial_group": "wet_002",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'wet_002', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_002_depth=9in_t=4_theta>=18",
+      "initial_group": "wet_002",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'wet_002', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_003_depth=1in_t=4_theta>=22",
+      "initial_group": "wet_003",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'wet_003', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_003_depth=5in_t=4_theta>=20",
+      "initial_group": "wet_003",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'wet_003', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_003_depth=9in_t=4_theta>=18",
+      "initial_group": "wet_003",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'wet_003', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_004_depth=1in_t=4_theta>=22",
+      "initial_group": "wet_004",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'wet_004', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_004_depth=5in_t=4_theta>=20",
+      "initial_group": "wet_004",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'wet_004', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_004_depth=9in_t=4_theta>=18",
+      "initial_group": "wet_004",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'wet_004', depth 9in must reach theta >= 18% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_005_depth=1in_t=4_theta>=22",
+      "initial_group": "wet_005",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 22.0,
+      "description": "For initial case 'wet_005', depth 1in must reach theta >= 22% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_005_depth=5in_t=4_theta>=20",
+      "initial_group": "wet_005",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 20.0,
+      "description": "For initial case 'wet_005', depth 5in must reach theta >= 20% by time step 4."
+    },
+    {
+      "req_id": "R_case=wet_005_depth=9in_t=4_theta>=18",
+      "initial_group": "wet_005",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 18.0,
+      "description": "For initial case 'wet_005', depth 9in must reach theta >= 18% by time step 4."
+    }
+  ],
+  "instance_statistics": {
+    "num_csv_rows": 240,
+    "num_schedules": 16,
+    "num_requirements": 45,
+    "num_coverage_incidences": 686,
+    "coverage_density": 0.9527777777777777,
+    "num_initial_groups": 15,
+    "num_depths": 3,
+    "num_deadlines": 1,
+    "time_horizon": 4
+  },
+  "timing_seconds": {
+    "preprocess_time": 0.18032500000845175,
+    "solve_time": 0.025156167001114227,
+    "total_time": 0.20972358300059568
+  },
+  "settings": {
+    "summary_csv": "controller_level_summary_T_4.csv",
+    "thresholds": "1in:22,5in:20,9in:18",
+    "label_thresholds": null,
+    "deadlines": "max",
+    "granularity": "case",
+    "coverage_mode": "all",
+    "deadline_mode": "at_or_before",
+    "include_t0": false,
+    "solver": "z3"
+  }
+}
