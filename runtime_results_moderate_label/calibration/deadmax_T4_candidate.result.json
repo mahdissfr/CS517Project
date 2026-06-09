@@ -1,0 +1,363 @@
+{
+  "satisfiable": true,
+  "budget": 1000000,
+  "budget_used": 16,
+  "selected_schedule_ids": [
+    "sched_0001",
+    "sched_0002",
+    "sched_0003",
+    "sched_0004",
+    "sched_0005",
+    "sched_0006",
+    "sched_0007",
+    "sched_0008",
+    "sched_0009",
+    "sched_0010",
+    "sched_0011",
+    "sched_0012",
+    "sched_0013",
+    "sched_0014",
+    "sched_0015",
+    "sched_0016"
+  ],
+  "message": "SAT: found a set of schedules covering all requirements within the budget.",
+  "num_solver_calls": 1,
+  "selected_schedules": [
+    {
+      "schedule_id": "sched_0001",
+      "binary_sequence": "0000",
+      "covers": []
+    },
+    {
+      "schedule_id": "sched_0002",
+      "binary_sequence": "0001",
+      "covers": [
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0003",
+      "binary_sequence": "0010",
+      "covers": [
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0004",
+      "binary_sequence": "0011",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0005",
+      "binary_sequence": "0100",
+      "covers": [
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0006",
+      "binary_sequence": "0101",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0007",
+      "binary_sequence": "0110",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0008",
+      "binary_sequence": "0111",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0009",
+      "binary_sequence": "1000",
+      "covers": [
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0010",
+      "binary_sequence": "1001",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0011",
+      "binary_sequence": "1010",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0012",
+      "binary_sequence": "1011",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0013",
+      "binary_sequence": "1100",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0014",
+      "binary_sequence": "1101",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0015",
+      "binary_sequence": "1110",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    },
+    {
+      "schedule_id": "sched_0016",
+      "binary_sequence": "1111",
+      "covers": [
+        "R_label=dry_depth=1in_t=4_theta>=24.8",
+        "R_label=dry_depth=5in_t=4_theta>=24.6",
+        "R_label=dry_depth=9in_t=4_theta>=24.4",
+        "R_label=medium_depth=1in_t=4_theta>=24.8",
+        "R_label=medium_depth=5in_t=4_theta>=24.6",
+        "R_label=medium_depth=9in_t=4_theta>=24.4",
+        "R_label=wet_depth=1in_t=4_theta>=24.8",
+        "R_label=wet_depth=5in_t=4_theta>=24.6",
+        "R_label=wet_depth=9in_t=4_theta>=24.4"
+      ]
+    }
+  ],
+  "covered_requirements": [
+    "R_label=dry_depth=1in_t=4_theta>=24.8",
+    "R_label=dry_depth=5in_t=4_theta>=24.6",
+    "R_label=dry_depth=9in_t=4_theta>=24.4",
+    "R_label=medium_depth=1in_t=4_theta>=24.8",
+    "R_label=medium_depth=5in_t=4_theta>=24.6",
+    "R_label=medium_depth=9in_t=4_theta>=24.4",
+    "R_label=wet_depth=1in_t=4_theta>=24.8",
+    "R_label=wet_depth=5in_t=4_theta>=24.6",
+    "R_label=wet_depth=9in_t=4_theta>=24.4"
+  ],
+  "num_requirements": 9,
+  "num_covered_requirements": 9,
+  "all_requirements_covered": true,
+  "requirements": [
+    {
+      "req_id": "R_label=dry_depth=1in_t=4_theta>=24.8",
+      "initial_group": "dry",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 24.8,
+      "description": "For initial label 'dry', depth 1in must reach theta >= 24.8% by time step 4."
+    },
+    {
+      "req_id": "R_label=dry_depth=5in_t=4_theta>=24.6",
+      "initial_group": "dry",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 24.6,
+      "description": "For initial label 'dry', depth 5in must reach theta >= 24.6% by time step 4."
+    },
+    {
+      "req_id": "R_label=dry_depth=9in_t=4_theta>=24.4",
+      "initial_group": "dry",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 24.4,
+      "description": "For initial label 'dry', depth 9in must reach theta >= 24.4% by time step 4."
+    },
+    {
+      "req_id": "R_label=medium_depth=1in_t=4_theta>=24.8",
+      "initial_group": "medium",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 24.8,
+      "description": "For initial label 'medium', depth 1in must reach theta >= 24.8% by time step 4."
+    },
+    {
+      "req_id": "R_label=medium_depth=5in_t=4_theta>=24.6",
+      "initial_group": "medium",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 24.6,
+      "description": "For initial label 'medium', depth 5in must reach theta >= 24.6% by time step 4."
+    },
+    {
+      "req_id": "R_label=medium_depth=9in_t=4_theta>=24.4",
+      "initial_group": "medium",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 24.4,
+      "description": "For initial label 'medium', depth 9in must reach theta >= 24.4% by time step 4."
+    },
+    {
+      "req_id": "R_label=wet_depth=1in_t=4_theta>=24.8",
+      "initial_group": "wet",
+      "depth": "1in",
+      "deadline": 4,
+      "threshold": 24.8,
+      "description": "For initial label 'wet', depth 1in must reach theta >= 24.8% by time step 4."
+    },
+    {
+      "req_id": "R_label=wet_depth=5in_t=4_theta>=24.6",
+      "initial_group": "wet",
+      "depth": "5in",
+      "deadline": 4,
+      "threshold": 24.6,
+      "description": "For initial label 'wet', depth 5in must reach theta >= 24.6% by time step 4."
+    },
+    {
+      "req_id": "R_label=wet_depth=9in_t=4_theta>=24.4",
+      "initial_group": "wet",
+      "depth": "9in",
+      "deadline": 4,
+      "threshold": 24.4,
+      "description": "For initial label 'wet', depth 9in must reach theta >= 24.4% by time step 4."
+    }
+  ],
+  "instance_statistics": {
+    "num_csv_rows": 240,
+    "num_schedules": 16,
+    "num_requirements": 9,
+    "num_coverage_incidences": 126,
+    "coverage_density": 0.875,
+    "num_initial_groups": 3,
+    "num_depths": 3,
+    "num_deadlines": 1,
+    "time_horizon": 4
+  },
+  "timing_seconds": {
+    "preprocess_time": 0.0961585000040941,
+    "solve_time": 0.06679920799797401,
+    "total_time": 0.16775895800674334
+  },
+  "settings": {
+    "summary_csv": "controller_level_summary_T_4.csv",
+    "thresholds": "1in:24.8,5in:24.6,9in:24.4",
+    "label_thresholds": null,
+    "deadlines": "max",
+    "granularity": "label",
+    "coverage_mode": "all",
+    "deadline_mode": "at_or_before",
+    "include_t0": false,
+    "solver": "z3"
+  }
+}
