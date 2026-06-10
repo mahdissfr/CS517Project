@@ -124,9 +124,9 @@
     "time_horizon": 4
   },
   "timing_seconds": {
-    "preprocess_time": 0.05275141599122435,
-    "solve_time": 0.015299165999749675,
-    "total_time": 0.07083166600205004
+    "preprocess_time": 0.05421375000150874,
+    "solve_time": 0.012668834009673446,
+    "total_time": 0.06966287500108592
   },
   "settings": {
     "summary_csv": "controller_level_summary_T_4.csv",
